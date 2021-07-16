@@ -162,6 +162,7 @@ void morse_letter(String name, unsigned long delay_time, unsigned long delay_bet
       long_blink();
       delay(delay_time);
       short_blink();
+      delay(delay_time);
       break;
     case 'S':
       short_blink();
